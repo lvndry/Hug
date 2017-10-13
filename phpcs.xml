@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ruleset name='Blog'>
+
+  <description>Regles de formatages</description>
+
+  <arg name='colors'></arg>
+  <arg vlaue='p'></arg>
+
+  <file>src</file>
+  <file>public/index.php</file>
+
+  <rule ref='PSR2'></rule>
+
+</ruleset>

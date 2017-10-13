@@ -1,0 +1,23 @@
+{
+    "name": "lvndry/blog_php",
+    "authors": [
+        {
+            "name": "Landry Monga",
+            "email": "monga.4landry@gmail.com"
+        }
+    ],
+
+    "autoload": {
+      "psr-4":{
+        "Framework\\": "src/Framework"
+      }
+    },
+    "require": {
+        "guzzlehttp/psr7": "^1.4",
+        "http-interop/response-sender": "^1.0",
+        "squizlabs/php_codesniffer": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.4"
+    }
+}
